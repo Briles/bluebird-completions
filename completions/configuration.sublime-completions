@@ -1,0 +1,29 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "unhandledRejection\tbluebird",
+            "contents": "unhandledRejection$0"
+        },
+        {
+            "trigger": "rejectionHandled\tbluebird",
+            "contents": "rejectionHandled$0"
+        },
+        {
+            "trigger": "Promise.onPossiblyUnhandledRejection(handler)\tbluebird",
+            "contents": "Promise.onPossiblyUnhandledRejection(${1:handler})$0"
+        },
+        {
+            "trigger": "Promise.config(options)\tbluebird",
+            "contents": "Promise.config(${1:options})$0"
+        },
+        {
+            "trigger": "suppressUnhandledRejections()\tbluebird",
+            "contents": "suppressUnhandledRejections()$0"
+        },
+        {
+            "trigger": "done([fulfilledHandler] [, rejectedHandler])\tbluebird",
+            "contents": "done(${1:[fulfilledHandler]} ${2:[, rejectedHandler]})$0"
+        }
+    ]
+}

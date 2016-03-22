@@ -1,0 +1,13 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "Promise.coroutine(generatorFunction)\tbluebird",
+            "contents": "Promise.coroutine(${1:generatorFunction});$0"
+        },
+        {
+            "trigger": "Promise.coroutine.addYieldHandler(handler)\tbluebird",
+            "contents": "Promise.coroutine.addYieldHandler(${1:handler});$0"
+        }
+    ]
+}

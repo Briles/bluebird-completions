@@ -1,0 +1,17 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "delay(ms)\tbluebird",
+            "contents": "delay(${1:ms});$0"
+        },
+        {
+            "trigger": "timeout(ms [, message])\tbluebird",
+            "contents": "timeout(${1:ms} ${2:[, message]});$0"
+        },
+        {
+            "trigger": "timeout(ms [, error])\tbluebird",
+            "contents": "timeout(${1:ms} ${2:[, error]});$0"
+        }
+    ]
+}

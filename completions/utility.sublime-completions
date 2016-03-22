@@ -1,0 +1,53 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "tap(handler)\tbluebird",
+            "contents": "tap(${1:handler});$0"
+        },
+        {
+            "trigger": "call(methodName [, args...])\tbluebird",
+            "contents": "call(${1:methodName} ${2:[, args...]});$0"
+        },
+        {
+            "trigger": "get(propertyName|index)\tbluebird",
+            "contents": "get(${1:propertyName|index});$0"
+        },
+        {
+            "trigger": "return(value)\tbluebird",
+            "contents": "return(${1:value});$0"
+        },
+        {
+            "trigger": "thenReturn(value)\tbluebird",
+            "contents": "thenReturn(${1:value});$0"
+        },
+        {
+            "trigger": "throw(reason)\tbluebird",
+            "contents": "throw(${1:reason});$0"
+        },
+        {
+            "trigger": "thenThrow(reason)\tbluebird",
+            "contents": "thenThrow(${1:reason});$0"
+        },
+        {
+            "trigger": "catchReturn([predicate], value)\tbluebird",
+            "contents": "catchReturn(${1:[predicate]}, ${2:value});$0"
+        },
+        {
+            "trigger": "catchThrow([predicate], reason)\tbluebird",
+            "contents": "catchThrow(${1:[predicate]}, ${2:reason});$0"
+        },
+        {
+            "trigger": "reflect()\tbluebird",
+            "contents": "reflect();$0"
+        },
+        {
+            "trigger": "Promise.noConflict()\tbluebird",
+            "contents": "Promise.noConflict();$0"
+        },
+        {
+            "trigger": "Promise.setScheduler(scheduler)\tbluebird",
+            "contents": "Promise.setScheduler(${1:scheduler});$0"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "Promise.promisify(nodeFunction [, options])\tbluebird",
+            "contents": "Promise.promisify(${1:nodeFunction} ${2:[, options]});$0"
+        },
+        {
+            "trigger": "Promise.promisifyAll(target [, options])\tbluebird",
+            "contents": "Promise.promisifyAll(${1:target} ${2:[, options]});$0"
+        },
+        {
+            "trigger": "Promise.fromCallback(resolver [, options])\tbluebird",
+            "contents": "Promise.fromCallback(${1:resolver} ${2:[, options]});$0"
+        },
+        {
+            "trigger": "Promise.fromNode(resolver [, options])\tbluebird",
+            "contents": "Promise.fromNode(${1:resolver} ${2:[, options]});$0"
+        },
+        {
+            "trigger": "asCallback([callback] [, options])\tbluebird",
+            "contents": "asCallback(${1:[callback]} ${2:[, options]});$0"
+        },
+        {
+            "trigger": "nodeify([callback] [, options])\tbluebird",
+            "contents": "nodeify(${1:[callback]} ${2:[, options]});$0"
+        }
+    ]
+}

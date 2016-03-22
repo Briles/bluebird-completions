@@ -1,0 +1,81 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "Promise.all(input)\tbluebird",
+            "contents": "Promise.all(${1:input});$0"
+        },
+        {
+            "trigger": "Promise.props(input)\tbluebird",
+            "contents": "Promise.props(${1:input});$0"
+        },
+        {
+            "trigger": "Promise.any(input)\tbluebird",
+            "contents": "Promise.any(${1:input});$0"
+        },
+        {
+            "trigger": "Promise.some(input, count);$0)\tbluebird",
+            "contents": "Promise.some(${1:input}, ${2:count});$0"
+        },
+        {
+            "trigger": "Promise.map(input, mapper [, options]);$0)\tbluebird",
+            "contents": "Promise.map(${1:input}, ${2:mapper} ${3:[, options]});$0"
+        },
+        {
+            "trigger": "Promise.reduce(input, reducer [, initialValue]);$0)\tbluebird",
+            "contents": "Promise.reduce(${1:input}, ${2:reducer} ${3:[, initialValue]});$0"
+        },
+        {
+            "trigger": "Promise.filter(input, filterer [, options]);$0)\tbluebird",
+            "contents": "Promise.filter(${1:input}, ${2:filterer} ${3:[, options]});$0"
+        },
+        {
+            "trigger": "Promise.each(input, iterator);$0)\tbluebird",
+            "contents": "Promise.each(${1:input}, ${2:iterator});$0"
+        },
+        {
+            "trigger": "Promise.mapSeries(input, mapper);$0)\tbluebird",
+            "contents": "Promise.mapSeries(${1:input}, ${2:mapper});$0"
+        },
+        {
+            "trigger": "Promise.race(input)\tbluebird",
+            "contents": "Promise.race(${1:input});$0"
+        },
+        {
+            "trigger": "all()\tbluebird",
+            "contents": "all($1);$0"
+        },
+        {
+            "trigger": "props()\tbluebird",
+            "contents": "props($1);$0"
+        },
+        {
+            "trigger": "any()\tbluebird",
+            "contents": "any($1);$0"
+        },
+        {
+            "trigger": "some(count);$0)\tbluebird",
+            "contents": "some(${1:count});$0"
+        },
+        {
+            "trigger": "map(mapper [, options]);$0)\tbluebird",
+            "contents": "map(${1:mapper} ${2:[, options]});$0"
+        },
+        {
+            "trigger": "reduce(reducer [, initialValue]);$0)\tbluebird",
+            "contents": "reduce(${1:reducer} ${2:[, initialValue]});$0"
+        },
+        {
+            "trigger": "filter(filterer [, options]);$0)\tbluebird",
+            "contents": "filter(${1:filterer} ${2:[, options]});$0"
+        },
+        {
+            "trigger": "each(iterator);$0)\tbluebird",
+            "contents": "each(${1:iterator});$0"
+        },
+        {
+            "trigger": "mapSeries(mapper);$0)\tbluebird",
+            "contents": "mapSeries(${1:mapper});$0"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "isFulfilled()\tbluebird",
+            "contents": "isFulfilled();$0"
+        },
+        {
+            "trigger": "isRejected()\tbluebird",
+            "contents": "isRejected();$0"
+        },
+        {
+            "trigger": "isPending()\tbluebird",
+            "contents": "isPending();$0"
+        },
+        {
+            "trigger": "isCancelled()\tbluebird",
+            "contents": "isCancelled();$0"
+        },
+        {
+            "trigger": "value()\tbluebird",
+            "contents": "value();$0"
+        },
+        {
+            "trigger": "reason()\tbluebird",
+            "contents": "reason();$0"
+        }
+    ]
+}
