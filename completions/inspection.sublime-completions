@@ -3,27 +3,27 @@
     "completions": [
         {
             "trigger": "isFulfilled()\tbluebird",
-            "contents": "isFulfilled();$0"
+            "contents": "isFulfilled()$0"
         },
         {
             "trigger": "isRejected()\tbluebird",
-            "contents": "isRejected();$0"
+            "contents": "isRejected()$0"
         },
         {
             "trigger": "isPending()\tbluebird",
-            "contents": "isPending();$0"
+            "contents": "isPending()$0"
         },
         {
             "trigger": "isCancelled()\tbluebird",
-            "contents": "isCancelled();$0"
+            "contents": "isCancelled()$0"
         },
         {
             "trigger": "value()\tbluebird",
-            "contents": "value();$0"
+            "contents": "value()$0"
         },
         {
             "trigger": "reason()\tbluebird",
-            "contents": "reason();$0"
+            "contents": "reason()$0"
         }
     ]
 }

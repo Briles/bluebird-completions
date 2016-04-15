@@ -3,19 +3,19 @@
     "completions": [
         {
             "trigger": "new OperationalError(message)\tbluebird",
-            "contents": "new OperationalError(${1:message});$0"
+            "contents": "new OperationalError(${1:message})$0"
         },
         {
             "trigger": "new TimeoutError(message)\tbluebird",
-            "contents": "new TimeoutError(${1:message});$0"
+            "contents": "new TimeoutError(${1:message})$0"
         },
         {
             "trigger": "new CancellationError(message)\tbluebird",
-            "contents": "new CancellationError(${1:message});$0"
+            "contents": "new CancellationError(${1:message})$0"
         },
         {
             "trigger": "new AggregateError()\tbluebird",
-            "contents": "new AggregateError();$0"
+            "contents": "new AggregateError()$0"
         }
     ]
 }

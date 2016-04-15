@@ -3,63 +3,63 @@
     "completions": [
         {
             "trigger": "new Promise()\tbluebird",
-            "contents": "new Promise($1);$0"
+            "contents": "new Promise($1)$0"
         },
         {
             "trigger": "then([fulfilledHandler] [, rejectedHandler])\tbluebird",
-            "contents": "then(${1:[fulfilledHandler]} ${2:[, rejectedHandler]});$0"
+            "contents": "then(${1:[fulfilledHandler]} ${2:[, rejectedHandler]})$0"
         },
         {
             "trigger": "spread([fulfilledHandler])\tbluebird",
-            "contents": "spread(${1:[fulfilledHandler]});$0"
+            "contents": "spread(${1:[fulfilledHandler]})$0"
         },
         {
             "trigger": "catch(handler)\tbluebird",
-            "contents": "catch(${1:handler});$0"
+            "contents": "catch(${1:handler})$0"
         },
         {
             "trigger": "caught(handler)\tbluebird",
-            "contents": "caught(${1:handler});$0"
+            "contents": "caught(${1:handler})$0"
         },
         {
             "trigger": "error(rejectedHandler)\tbluebird",
-            "contents": "error(${1:rejectedHandler});$0"
+            "contents": "error(${1:rejectedHandler})$0"
         },
         {
             "trigger": "finally(handler)\tbluebird",
-            "contents": "finally(${1:handler});$0"
+            "contents": "finally(${1:handler})$0"
         },
         {
             "trigger": "lastly(handler)\tbluebird",
-            "contents": "lastly(${1:handler});$0"
+            "contents": "lastly(${1:handler})$0"
         },
         {
             "trigger": "bind(thisArg)\tbluebird",
-            "contents": "bind(${1:thisArg});$0"
+            "contents": "bind(${1:thisArg})$0"
         },
         {
             "trigger": "Promise.join(values..., handler)\tbluebird",
-            "contents": "Promise.join(${1:values...}, ${2:handler});$0"
+            "contents": "Promise.join(${1:values...}, ${2:handler})$0"
         },
         {
             "trigger": "Promise.try()\tbluebird",
-            "contents": "Promise.try($1);$0"
+            "contents": "Promise.try($1)$0"
         },
         {
             "trigger": "Promise.attempt()\tbluebird",
-            "contents": "Promise.attempt($1);$0"
+            "contents": "Promise.attempt($1)$0"
         },
         {
             "trigger": "Promise.method()\tbluebird",
-            "contents": "Promise.method($1);$0"
+            "contents": "Promise.method($1)$0"
         },
         {
             "trigger": "Promise.resolve(value)\tbluebird",
-            "contents": "Promise.resolve(${1:value});$0"
+            "contents": "Promise.resolve(${1:value})$0"
         },
         {
             "trigger": "Promise.reject(error)\tbluebird",
-            "contents": "Promise.reject(${1:error});$0"
+            "contents": "Promise.reject(${1:error})$0"
         }
     ]
 }

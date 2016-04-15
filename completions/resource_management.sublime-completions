@@ -3,15 +3,15 @@
     "completions": [
         {
             "trigger": "Promise.using(resource, resource..., handler)\tbluebird",
-            "contents": "Promise.using(${1:resource}, ${2:resource...}, ${3:handler});$0"
+            "contents": "Promise.using(${1:resource}, ${2:resource...}, ${3:handler})$0"
         },
         {
             "trigger": "Promise.using(resources, handler)\tbluebird",
-            "contents": "Promise.using(${1:resources}, ${2:handler});$0"
+            "contents": "Promise.using(${1:resources}, ${2:handler})$0"
         },
         {
             "trigger": "disposer(disposer)\tbluebird",
-            "contents": "disposer(${1:disposer});$0"
+            "contents": "disposer(${1:disposer})$0"
         }
     ]
 }
